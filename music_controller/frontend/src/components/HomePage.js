@@ -5,6 +5,6 @@ export default class HomePage extends Component {
         super(props);
     }
     render(){
-        return <p> This is the Home Page</p>
+        return <p> This is the Home Page</p>;
     }
 }
