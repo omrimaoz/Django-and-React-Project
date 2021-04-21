@@ -14,7 +14,7 @@ export default class App extends Component {
         return (<Router>
             <Switch>
                 <Route exact path='/'>
-                    <p>This is the hope page</p>
+                    <p>This is the home page</p>
                 </Route>
                 <Route path='/join' component={RoomJoinPage}></Route>
                 <Route path='/create' component={CreateNewRoomPage}></Route>
